@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "deckedout",
+	"version": "${version}",
+	"name": "Decked Out",
+	"description": "Deck Building, Dungeon Running Game",
+	"authors": [
+		"ZestyBlaze"
+	],
+	"contributors": [
+		"JARcraft"
+	],
+	"contact": {
+		"sources": "https://github.com/ZestyBlaze/DeckedOut",
+		"issues": "https://github.com/ZestyBlaze/DeckedOut/issues"
+	},
+	"license": "GNU",
+	"icon": "assets/deckedout/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          	"dev.zestyblaze.deckedout.DeckedOut"
+		],
+		"cardinal-components": [
+			"dev.zestyblaze.deckedout.registry.ComponentRegistry"
+		],
+		"fabric-datagen": [
+			"dev.zestyblaze.deckedout.datagen.DeckedOutDataGenerator"
+		]
+	},
+	"mixins": [
+		"deckedout.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"deckedout:do_player",
+			"deckedout:pet"
+		]
+	}
+}

@@ -1,0 +1,112 @@
+{
+    "textures": {
+        "0": "deckedout:item/adventurers_hat"
+    },
+	"display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 5, 0 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 5, 0 ],
+            "scale": [ 0.8, 0.8, 0.8 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 5, 0],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 5, 0],
+            "scale": [ 1, 1, 1 ]
+        },
+        "gui": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 5, 0],
+            "scale": [ 1, 1, 1 ]
+        },
+        "ground": {
+            "translation": [ 0, 7, 0],
+            "scale": [ 0.7, 0.7, 0.7 ]
+		},
+        "fixed" : {
+			"translation": [0, 8, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 13.5, 0],
+            "scale": [ 1.7, 1.7, 1.7 ]
+		}
+    },
+    "elements": [
+        {
+            "name": "Hat Main",
+            "from": [ 4.0, 1.0, 4.0 ], 
+            "to": [ 12.0, 4.0, 12.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 5.0, 13.0, 13.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 13.0, 8.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 13.0, 8.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 13.0, 8.0, 16.0 ] },
+                "up": { "texture": "#0", "uv": [ 4.0, 4.0, 12.0, 12.0 ] },
+                "down": { "texture": "#0", "uv": [ 2.0, 2.0, 10.0, 10.0 ] }
+            }
+        },
+        {
+            "name": "Hat Top",
+            "from": [ 5.0, 4.0, 5.0 ], 
+            "to": [ 11.0, 5.0, 11.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 4.0, 6.0, 5.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 3.0, 6.0, 4.0 ] },
+                "south": { "texture": "#0", "uv": [ 8.0, 3.0, 14.0, 4.0 ] },
+                "west": { "texture": "#0", "uv": [ 6.0, 2.0, 12.0, 3.0 ] },
+                "up": { "texture": "#0", "uv": [ 5.0, 2.0, 11.0, 8.0 ] },
+                "down": { "texture": "#0", "uv": [ 4.0, 0.0, 10.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Hat Outside Main",
+            "from": [ 2.0, 0.0, 2.0 ], 
+            "to": [ 14.0, 1.0, 14.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 3.0, 4.0, 15.0, 5.0 ] },
+                "east": { "texture": "#0", "uv": [ 2.0, 4.0, 14.0, 5.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 4.0, 12.0, 5.0 ] },
+                "west": { "texture": "#0", "uv": [ 2.0, 4.0, 14.0, 5.0 ] },
+                "up": { "texture": "#0", "uv": [ 4.0, 1.0, 16.0, 13.0 ] },
+                "down": { "texture": "#0", "uv": [ 1.0, 0.0, 13.0, 12.0 ] }
+            }
+        },
+        {
+            "name": "Hat Outside North South",
+            "from": [ 3.0, 0.0, 1.0 ], 
+            "to": [ 13.0, 0.8, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 3.0, 12.0, 3.8 ] },
+                "east": { "texture": "#0", "uv": [ 2.0, 2.0, 16.0, 2.8 ] },
+                "south": { "texture": "#0", "uv": [ 4.0, 3.0, 14.0, 3.8 ] },
+                "west": { "texture": "#0", "uv": [ 1.0, 2.0, 15.0, 2.8 ] },
+                "up": { "texture": "#0", "uv": [ 6.0, 0.0, 16.0, 14.0 ] },
+                "down": { "texture": "#0", "uv": [ 2.0, 0.0, 12.0, 14.0 ] }
+            }
+        },
+        {
+            "name": "Hat Outside East West",
+            "from": [ 1.0, 0.0, 3.0 ], 
+            "to": [ 15.0, 0.8, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 1.0, 3.0, 15.0, 3.8 ] },
+                "east": { "texture": "#0", "uv": [ 3.0, 1.0, 13.0, 1.8 ] },
+                "south": { "texture": "#0", "uv": [ 2.0, 3.0, 16.0, 3.8 ] },
+                "west": { "texture": "#0", "uv": [ 3.0, 1.0, 13.0, 1.8 ] },
+                "up": { "texture": "#0", "uv": [ 2.0, 2.0, 16.0, 12.0 ] },
+                "down": { "texture": "#0", "uv": [ 2.0, 3.0, 16.0, 13.0 ] }
+            }
+        }
+    ]
+}

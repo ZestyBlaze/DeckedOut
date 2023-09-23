@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "first_entry": {
+      "conditions": {},
+      "trigger": "deckedout:first_entry"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.deckedout.first_entry.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.deckedout.first_entry"
+    }
+  },
+  "requirements": [
+    [
+      "first_entry"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "deckedout:root",
+  "criteria": {
+    "first_completion": {
+      "conditions": {},
+      "trigger": "deckedout:first_completion"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.deckedout.first_completion.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.deckedout.first_completion"
+    }
+  },
+  "requirements": [
+    [
+      "first_completion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
